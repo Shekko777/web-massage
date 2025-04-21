@@ -1,0 +1,26 @@
+.top-button {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  display: none;
+  border: none;
+  background-color: transparent;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.top-button:hover {
+  transform: scale(1.1);
+}
+
+.top-button:active {
+  transform: scale(0.7);
+}
+
+.top-button_active {
+  display: block;
+}
+
+.top-button__image {
+  max-width: 50px;
+}
