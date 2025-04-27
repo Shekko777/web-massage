@@ -1,6 +1,7 @@
 import React from 'react';
 import ScrollToTopButton from '../../components/ScrollToTopButton/ScrollToTopButton';
 import Header from '../../components/Header/Header';
+import Banner from './components/Banner/Banner.jsx';
 import Services from './components/Services/Services.jsx';
 import Decor from './components/Decor/Decor.jsx';
 import Contacts from './components/Contacts/Contacts.jsx';
@@ -14,11 +15,12 @@ export default function MainPage() {
       <Header />
       <main className="main">
         <ScrollToTopButton />
-        <Services />
-        <Decor />
-        <Contacts />
+        {/* <Banner /> */}
+        {/* <Services /> */}
+        {/* <Decor /> */}
+        {/* <Contacts /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
