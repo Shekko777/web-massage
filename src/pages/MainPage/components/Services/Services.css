@@ -29,3 +29,9 @@
 .services__card:hover {
   background-color: #dcf8c6;
 }
+
+@media screen and (max-width: 530px) {
+  .services__card-title {
+    font-size: 14px;
+  }
+}

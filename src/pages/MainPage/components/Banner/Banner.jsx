@@ -1,10 +1,11 @@
-import './Banner.css';
+import "./Banner.css";
 
-export default function Banner () {
+export default function Banner() {
   return (
     <section className="banner">
-      <h1 className="banner__title">
-          Любите себя! <br /> Остальное наша работа
+      <div className="banner__container">
+        <h1 className="banner__title">
+          Любите себя! <span className="banner__title-span">Остальное наша работа</span>
         </h1>
         <ul className="banner__links">
           <li className="banner__item">
@@ -38,6 +39,7 @@ export default function Banner () {
             </a>
           </li>
         </ul>
+      </div>
     </section>
-  )
+  );
 }

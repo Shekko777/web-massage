@@ -4,3 +4,9 @@
   align-items: center;
   padding: 15px 0;
 }
+
+@media screen and (max-width: 900px) {
+  .footer__logo {
+    max-width: 150px;
+  }
+}

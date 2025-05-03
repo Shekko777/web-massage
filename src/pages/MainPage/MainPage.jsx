@@ -15,12 +15,12 @@ export default function MainPage() {
       <Header />
       <main className="main">
         <ScrollToTopButton />
-        {/* <Banner /> */}
-        {/* <Services /> */}
-        {/* <Decor /> */}
-        {/* <Contacts /> */}
+        <Banner />
+        <Services />
+        <Decor />
+        <Contacts />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

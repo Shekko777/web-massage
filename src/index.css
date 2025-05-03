@@ -1,12 +1,17 @@
 @import url(./assets/fonts/fonts.css);
 
 /* Главные стили */
-body {
+.body {
   margin: 0;
   color: #191919;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
+  background-color: #fff;
+}
+
+.body_disactive {
+  overflow: hidden;
 }
 
 .title {
@@ -21,5 +26,16 @@ body {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
-  padding: 50px 15px 50px;
+  padding: 50px 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 30px;
+    margin: 0 0 20px;
+  }
+
+  .section {
+    padding: 30px 10px;
+  }
 }
